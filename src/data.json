@@ -1,0 +1,82 @@
+{
+	"plates": [
+		{
+			"latitude": 64.2008,
+			"longitude": 149.4937,
+			"title": "ALASKA EARTHQUAKE ( NORTH AMERICAN PLATE )",
+			"subTitle": "THE ALASKA EARTHQUAKE WAS CAUSED BY SUBDUCTION!",
+			"info1": "When a heavy oceanic plate collides with a lighter continental plate, the latter sinks into the mantle. Earthquakes occur here, and molten magma forms and rises to the Earth's surface, resulting in a violent volcanic eruption.",
+			"info2": "The slow continuous movement of the Pacific Plate beneath the North American Plate generated this earthquake. This motion is squeezing the southern Alaskan crust, increasing pressure. The pressure is lifted every now and then, and the North American Plate snaps back over the Pacific Plate. As a result, an earthquake occurs.",
+			"img": "earthquake1.png",
+			"gif": "India-Eurasia_collision.gif"
+		},
+		{
+			"latitude": 3.0674,
+			"longitude": 37.3556,
+			"title": "SAN FRANCISCO EARTHQUAKE (NORTH AMERICAN PLATE)",
+			"subTitle": "THE EARTHQUAKE IN SAN FRANCISCO WAS CAUSED BY A SLIP AND SLIDE !",
+			"img": "earthquake2.png",
+			"gif": "Transform-margin.gif",
+			"info1": "One plate becomes trapped as it slides against another, causing pressure to build up. When it eventually breaks free, earthquakes occur, causing the ground to quiver and maybe crack. This movement has formed the San Andreas Fault, a zone of deep cracks in Earth’s crust that extends from northern to southern California. Almost all the earthquakes in California occur along the San Andreas Fault."
+		},
+		{
+			"latitude": 46.1914,
+			"longitude": 22.1956,
+			"title": "MOUNT KILIMANJARO (AFRICAN PLATE)",
+			"subTitle": "MOUNT KILIMANJARO WAS CAUSED BY DIVERGENT",
+			"img": "earthquake3.png",
+			"gif": "Subduction-zones-or-convergent-margins_1.gif",
+			"info1": "Earthquakes occur as two plates slowly separate, and magma rises from the mantle below. Magma erupts from volcanoes that build new crust when it cools between the plates.",
+			"info2": "This is an extremely unusual instance of continental crust fracturing. A deep fracture or rift in the Earth has been growing as the African Plate steadily separates. Magma erupts from the Earth's mantle and fills the crack, forming new crust. The East African Rift Valley, a broad, lush valley that runs hundreds of miles down the eastern section of Africa, was formed as a result of these occurrences."
+		},
+		{
+			"latitude": 46.1914,
+			"longitude": 122.1956,
+			"title": "MOUNT SAINT HELENS VOLCANIC ERUPTIONS (NORTH AMERICAN PLATE)",
+			"subTitle": "THE MOUNT ST. HELENS VOLCANIC ERUPTION WAS CAUSED BY SUBDUCTION.",
+			"img": "earthquake1.png",
+			"gif": "India-Eurasia_collision.gif",
+			"info1": "When a massive oceanic plate collides with a lighter continental plate, the latter descends into the mantle. Earthquakes occur here, and molten lava forms and rises to the Earth's surface, resulting in a violent volcanic eruption.",
+			"info2": "Mount Saint Helens was jolted by an earthquake. Small earthquakes have been rumbling in the neighborhood for a few months, so it wasn't unexpected. However, the earthquake triggered a major landslide on the volcano's steep slope. The magma that had been trapped deep within the volcano was suddenly freed. The volcano erupted in a cloud of hot gas, ash, and pebbles. Trees were razed to the ground. Houses were demolished."
+		},
+		{
+			"latitude": 27.9881,
+			"longitude": 86.925,
+			"title": "MOUNT EVEREST ( EURASIAN PLATE)",
+			"subTitle": "MOUNT EVEREST WAS CAUSED BY A COLLISION!",
+			"img": "earthquake4.png",
+			"gif": "Subduction-zones-or-convergent-margins_1.gif",
+			"info1": "When two continental plates collide, they will crumple and fold. Mountains form, and earthquakes occur when the crust is thrust up.",
+			"info2": "The world's tallest mountain is still expanding. Mount Everest's summit is increasing by around one centimeter (half an inch) per year. In fact, all of the Himalayan mountains are still expanding. The formation of mountains isn't the only tectonic activity in the region. Some of the world's most powerful earthquakes are caused by the continual pressure between the two plates."
+		},
+		{
+			"latitude": 35.3606,
+			"longitude": 138.7274,
+			"title": "MOUNT FUJI (EURASIAN PLATE)",
+			"subTitle": "MOUNT FUJI WAS CAUSED BY SUBDUCTION!",
+			"img": "earthquake1.png",
+			"gif": "India-Eurasia_collision.gif",
+			"info1": "When a massive oceanic plate collides with a lighter continental plate, the latter descends into the mantle. Earthquakes occur here, and molten magma forms and rises to the surface of the Earth, causing an explosive volcanic eruption."
+		},
+		{
+			"latitude": 64.9631,
+			"longitude": 19.0208,
+			"title": "THE ISLAND OF ICELAND (EURASIAN PLATE)",
+			"subTitle": "THE ISLAND OF ICELAND WAS CAUSED BY SPREADING",
+			"img": "earthquake1.png",
+			"gif": "India-Eurasia_collision.gif",
+			"info1": "Earthquakes occur as two plates slowly separate, and magma rises from the mantle below. Between the plates, magma erupts from volcanoes and cools to generate new crust.",
+			"info2": "The plates are expanding apart along the Mid-Atlantic Ridge. Magma emerges from the Earth's mantle between the spreading plates, forming volcanoes on the ocean floor. The lava cools and hardens, forming a new crust. Despite the fact that majority of the Mid-Atlantic ridge is underwater, Iceland broke free and became an island. Because Iceland is expanding over a hot spot, an exceptionally heated zone in the Earth's mantle, this is the case. Magma rises through the Earth's crust as a result of the hot spot, forming volcanoes that still erupt today."
+		},
+		{
+			"latitude": 35.6751,
+			"longitude": 71.543,
+			"title": "GREAT CHILEAN EARTHQUAKE (SOUTH AMERICAN PLATE)",
+			"subTitle": "GREAT CHILEAN EARTHQUAKE WAS CAUSED BY SUBDUCTION!",
+			"img": "earthquake3.png",
+			"gif": "Subduction-zones-or-convergent-margins_1.gif",
+			"info1": "When a massive oceanic plate collides with a lighter continental plate, the latter descends into the mantle. Earthquakes occur here, and molten magma forms and rises to the surface of the Earth, causing an explosive volcanic eruption.",
+			"info2": "Landslides, a volcanic eruption, and gigantic tsunamis were all triggered by the world's strongest earthquake on record. The Nazca Plate moved beneath the South American Plate, causing this catastrophic destruction. When the plates become stuck, pressure builds up as they squeeze together. When the stress between the plates is ultimately released, earthquakes occur along this boundary."
+		}
+	]
+}
