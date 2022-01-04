@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from "react";
-import ReactMapGL, {
-	Marker,
-	Popup,
-	NavigationControl,
-	FullscreenControl,
-} from "react-map-gl";
+import ReactMapGL, { Marker, Popup, NavigationControl } from "react-map-gl";
 import data from "./data.json";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
 
 export default function App() {
 	const [viewport, setViewport] = useState({
@@ -23,6 +19,7 @@ export default function App() {
 	};
 
 	const [selected, setSelected] = useState(null);
+	const [isclose, setIsClose] = useState(false);
 
 	useEffect(() => {
 		const listener = (e) => {
@@ -97,6 +94,44 @@ export default function App() {
 					<li>Railee</li>
 				</ul>
 			</footer>
+			<div
+				className={`${!isclose ? "info" : "info-close"}`}
+				onClick={() => {
+					if (isclose) {
+						return setIsClose(false);
+					}
+					return;
+				}}
+			>
+				<div className="info-head">
+					{!isclose && (
+						<>
+							<h3>GOOD DAY! Welcome to our MAPlatecto model</h3>
+							<AiOutlineClose
+								className="close"
+								onClick={() => setIsClose(true)}
+							/>
+						</>
+					)}
+				</div>
+				{!isclose && (
+					<>
+						<p>
+							Our model represents the 7 different plates which are the North
+							American Plate, Pacific Plate, South American Plate, African
+							Plate, Antarctic Plate, Indo-Australian Plate, Eurasian Plate.{" "}
+						</p>
+						<p>
+							There are various types of events on each plate. This occurrence
+							symbolizes plate tectonic movements (large earthquakes) and
+							mountain ranges creation in that particular plate. The markers
+							will provide you with a description of the occurrence as well as a
+							demonstration of the type of movement that occurred.{" "}
+						</p>
+						<img src="plates.png" alt="" />
+					</>
+				)}
+			</div>
 		</ReactMapGL>
 	);
 }
